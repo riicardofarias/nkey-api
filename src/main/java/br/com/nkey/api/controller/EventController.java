@@ -24,6 +24,11 @@ public class EventController {
         return new ResponseEntity<>(eventService.findAll(), HttpStatus.OK);
     }
 
+    @GetMapping(value = {"/{id}", "/{id}/"})
+    public ResponseEntity<?> findOne(@PathVariable("id") String id) {
+        return new ResponseEntity<>(eventService.findById(id), HttpStatus.OK);
+    }
+
     @PostMapping(value = {"/", ""})
     public ResponseEntity<?> save(@Valid @RequestBody Event event) {
         return new ResponseEntity<>(eventService.createNewEvent(event), HttpStatus.OK);

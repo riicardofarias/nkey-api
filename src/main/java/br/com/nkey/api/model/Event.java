@@ -1,5 +1,6 @@
 package br.com.nkey.api.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -12,11 +13,12 @@ import java.util.Date;
 public class Event extends BaseModel {
     @NotNull(message = "O nome do evento deve ser informado")
     @Field(name = "nome")
-    @JsonProperty("nome")
+    @JsonProperty("name")
     private String name;
 
     @NotNull(message = "A data do evento deve ser informada")
-    @JsonProperty("data")
+    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonProperty("date")
     @Field(name = "data")
     private Date date;
 
@@ -31,4 +33,10 @@ public class Event extends BaseModel {
 
     public User getUser() { return user; }
     public void setUser(User user) { this.user = user; }
+
+    @JsonFormat(pattern = "dd/MM/yyyy")
+    @JsonProperty(value = "formattedDate")
+    public Date getFormattedDate() {
+        return date;
+    }
 }

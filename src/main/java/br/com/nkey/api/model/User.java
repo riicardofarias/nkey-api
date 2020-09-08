@@ -9,14 +9,14 @@ import javax.validation.constraints.NotNull;
 public class User extends BaseModel {
     @NotNull(message = "O nome do usuário deve ser informado")
     @Field("nome")
-    @JsonProperty("nome")
+    @JsonProperty("name")
     private String name;
 
     @NotNull(message = "O email do usuário deve ser informado")
     private String email;
 
     @NotNull(message = "A senha do usuário deve ser informada")
-    @JsonProperty(value = "senha", access = JsonProperty.Access.WRITE_ONLY)
+    @JsonProperty(value = "password", access = JsonProperty.Access.WRITE_ONLY)
     @Field("senha")
     private String password;
 

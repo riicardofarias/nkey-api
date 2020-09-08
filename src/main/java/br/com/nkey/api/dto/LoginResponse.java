@@ -4,7 +4,7 @@ import br.com.nkey.api.model.User;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class LoginResponse {
-    @JsonProperty("usuario")
+    @JsonProperty("user")
     private final User user;
 
     @JsonProperty("token")
@@ -18,7 +18,6 @@ public class LoginResponse {
     public User getUser() {
         return user;
     }
-
     public String getToken() {
         return token;
     }
