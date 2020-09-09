@@ -9,9 +9,16 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import java.util.*;
 
+/**
+ * Controla as exeções lançadas propositalmente pelos Controlers e Services
+ */
 @ControllerAdvice
 public class ExceptionController {
-
+    /**
+     * Controla as RuntimeException
+     * @param ex RuntimeException
+     * @return Map
+     */
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<?> handleBadCredentialException(RuntimeException ex) {
         ex.printStackTrace();
@@ -22,6 +29,11 @@ public class ExceptionController {
         return new ResponseEntity<>(body, HttpStatus.BAD_REQUEST);
     }
 
+    /**
+     * Controla as BadCredentialException
+     * @param ex BadCredentialException
+     * @return Map
+     */
     @ExceptionHandler(BadCredentialException.class)
     public ResponseEntity<?> handleBadCredentialException(BadCredentialException ex) {
         ex.printStackTrace();
@@ -32,6 +44,11 @@ public class ExceptionController {
         return new ResponseEntity<>(body, HttpStatus.UNAUTHORIZED);
     }
 
+    /**
+     * Controla as exceções geradas pelos métodos de validação
+     * @param ex MethodArgumentNotValidException
+     * @return Map
+     */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<?> handleValidationException(MethodArgumentNotValidException ex) {
         ex.printStackTrace();

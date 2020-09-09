@@ -5,6 +5,9 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * Entidade de usuários
+ */
 @Document("usuarios")
 public class User extends BaseModel {
     @NotNull(message = "O nome do usuário deve ser informado")
@@ -20,12 +23,33 @@ public class User extends BaseModel {
     @Field("senha")
     private String password;
 
+    /**
+     * Nome completo
+     */
     public String getName() { return name; }
+
+    /**
+     * {@link User#getName()}
+     */
     public void setName(String name) { this.name = name; }
 
+    /**
+     * E-mail
+     */
     public String getEmail() { return email; }
+
+    /**
+     * {@link User#getEmail()}
+     */
     public void setEmail(String email) { this.email = email; }
 
+    /**
+     * Senha
+     */
     public String getPassword() { return password; }
+
+    /**
+     * {@link User#getPassword()}
+     */
     public void setPassword(String password) { this.password = password; }
 }

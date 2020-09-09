@@ -19,11 +19,21 @@ public class UserController {
         this.userService = userService;
     }
 
+    /**
+     * Método de autenticação de usuários
+     * @param user User
+     * @return LoginResponse
+     */
     @PostMapping(value = {"/login", "login"})
     public ResponseEntity<?> login(@RequestBody User user) {
         return new ResponseEntity<>(userService.login(user), HttpStatus.OK);
     }
 
+    /**
+     * Registra um novo usuário
+     * @param user User
+     * @return User
+     */
     @PostMapping(value = {"/register", "register"})
     public ResponseEntity<?> register(@Valid @RequestBody User user) {
         return new ResponseEntity<>(userService.registerNewUser(user), HttpStatus.OK);

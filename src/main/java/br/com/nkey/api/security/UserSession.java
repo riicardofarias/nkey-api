@@ -7,6 +7,9 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 
+/**
+ * Representa a sessão do usuário
+ */
 @Component
 public class UserSession {
     private final UserService userService;
@@ -15,6 +18,10 @@ public class UserSession {
         this.userService = userService;
     }
 
+    /**
+     * Retorna os dados do usuário logado
+     * @return User
+     */
     public User getLoggedUser(){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         User user = (User) auth.getPrincipal();

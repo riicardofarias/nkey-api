@@ -9,6 +9,9 @@ import org.springframework.data.mongodb.core.mapping.Field;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
+/**
+ * Entidade de eventos
+ */
 @Document("eventos")
 public class Event extends BaseModel {
     @NotNull(message = "O nome do evento deve ser informado")
@@ -25,15 +28,39 @@ public class Event extends BaseModel {
     @DBRef
     private User user;
 
+    /**
+     * Nome do evento
+     */
     public String getName() { return name; }
+
+    /**
+     * {@link Event#getName()}
+     */
     public void setName(String name) { this.name = name; }
 
+    /**
+     * Data do evento
+     */
     public Date getDate() { return date; }
+
+    /**
+     * {@link Event#getDate()}
+     */
     public void setDate(Date date) { this.date = date; }
 
+    /**
+     * Usuário a quem o evento pertence
+     */
     public User getUser() { return user; }
+
+    /**
+     * {@link Event#getUser()}
+     */
     public void setUser(User user) { this.user = user; }
 
+    /**
+     * Data do evento formatada (dd/MM/yyyy) Ex: 09/09/2020
+     */
     @JsonFormat(pattern = "dd/MM/yyyy")
     @JsonProperty(value = "formattedDate")
     public Date getFormattedDate() {

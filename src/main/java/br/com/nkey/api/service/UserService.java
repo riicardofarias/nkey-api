@@ -22,10 +22,20 @@ public class UserService {
         this.jwt = jwt;
     }
 
+    /**
+     * Busca o usuário pelo código de identificação
+     * @param id Id do usuário
+     * @return Optional<User>
+     */
     public Optional<User> findById(String id){
         return repository.findById(id);
     }
 
+    /**
+     * Realiza a authenticacação do usuário
+     * @param userDto User
+     * @return LoginResponse
+     */
     public LoginResponse login(User userDto){
         User user = repository.findByEmail(userDto.getEmail()).orElseThrow(() ->
             new BadCredentialException("Usuário não encontrado")
@@ -40,6 +50,11 @@ public class UserService {
         return new LoginResponse(user, token);
     }
 
+    /**
+     * Cria um novo usuaário
+     * @param user User
+     * @return User
+     */
     public User registerNewUser(User user){
         repository.findByEmail(user.getEmail()).ifPresent(e -> {
             throw new RuntimeException("Já existe um usuário com esse email");

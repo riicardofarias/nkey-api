@@ -1,5 +1,8 @@
 package br.com.nkey.api.exception;
 
+/**
+ * Representa as exceções lançadas quando um registro não é encontrado
+ */
 public class NotFoundException extends RuntimeException {
     public NotFoundException() {
         super();

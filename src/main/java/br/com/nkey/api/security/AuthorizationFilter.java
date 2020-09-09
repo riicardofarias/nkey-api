@@ -22,6 +22,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Filtro de autorização de usuário
+ */
 public class AuthorizationFilter extends BasicAuthenticationFilter {
     final UserService userService;
     final JwtTokenUtil jwtTokenUtil;

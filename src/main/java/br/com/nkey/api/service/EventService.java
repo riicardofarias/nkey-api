@@ -19,20 +19,40 @@ public class EventService {
         this.session = session;
     }
 
+    /**
+     * Busca todos os eventos
+     * @return List<Event>
+     */
     public List<Event> findAll() {
         return repository.findAll();
     }
 
+    /**
+     * Busca o evento pelo ID
+     * @param id Identificador do evento
+     * @return Event
+     */
     public Optional<Event> findById(String id) {
         return repository.findById(id);
     }
 
+    /**
+     * Cria um novo evento
+     * @param event Event
+     * @return Event
+     */
     public Event createNewEvent(Event event){
         event.setUser(session.getLoggedUser());
 
         return repository.save(event);
     }
 
+    /**
+     * Atualiza o evento
+     * @param id Identificador do evento
+     * @param eventDto Evento
+     * @return Event
+     */
     public Event updateEvent(String id, Event eventDto){
         Event event = repository.findById(id).orElseThrow(NotFoundException::new);
 
@@ -46,6 +66,10 @@ public class EventService {
         return repository.save(event);
     }
 
+    /**
+     * Remove um evento pelo código de identificação
+     * @param id Identificador do evento
+     */
     public void deleteEvent(String id){
         repository.deleteById(id);
     }

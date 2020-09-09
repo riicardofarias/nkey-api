@@ -1,5 +1,8 @@
 package br.com.nkey.api.exception;
 
+/**
+ * Representa as exceções relacionadas a authenticação de usuário
+ */
 public class BadCredentialException extends RuntimeException {
     public BadCredentialException() {
         super();
