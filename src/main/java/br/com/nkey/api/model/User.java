@@ -23,6 +23,15 @@ public class User extends BaseModel {
     @Field("senha")
     private String password;
 
+    public User() {
+    }
+
+    public User(@NotNull String name, @NotNull String email, @NotNull String password) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
+
     /**
      * Nome completo
      */

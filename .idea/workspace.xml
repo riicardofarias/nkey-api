@@ -20,23 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="998dd0cc-076e-4c80-8b74-981ee48a1fd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-heroku.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/nkey/api/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/controller/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/controller/ExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/controller/ExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/dto/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/dto/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/exception/BadCredentialException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/exception/BadCredentialException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/exception/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/model/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/model/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/model/Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/repository/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/security/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/security/AuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/security/UserSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/security/UserSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/service/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nkey/api/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/controller/EventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/controller/EventController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/controller/ExceptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/controller/ExceptionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/dto/LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/dto/LoginResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/exception/BadCredentialException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/exception/BadCredentialException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/exception/NotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/exception/NotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/model/BaseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/model/BaseModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/model/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/security/AuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/security/AuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/security/UserSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/security/UserSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/service/EventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/nkey/api/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/nkey/api/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +60,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1h3XfK2scS2jjFEGg5xTnTIaW9Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -70,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/com/nkey/api/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -80,12 +93,12 @@
       <recent name="br.com.nkey.api.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dev\Dev\java\nkey-api\src\main\java\br\com\nkey\api\util" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="C:\Users\Dev\Dev\java\nkey-api\src\main\java\br\com\nkey\api\util" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserControllerTest.whenLoginSuccess_thenReturns200">
+    <configuration name="UserControllerTest.whenLoginFailed_thenReturns400" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nkey-api" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +106,85 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.nkey.api.App" />
+      <option name="PACKAGE_NAME" value="br.com.nkey.api" />
+      <option name="MAIN_CLASS_NAME" value="br.com.nkey.api.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenLoginFailed_thenReturns400" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenLoginSuccess_thenReturns200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nkey-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.nkey.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.nkey.api" />
+      <option name="MAIN_CLASS_NAME" value="br.com.nkey.api.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenLoginSuccess_thenReturns200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenUserNotFound_thenReturns401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nkey-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.nkey.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.nkey.api" />
+      <option name="MAIN_CLASS_NAME" value="br.com.nkey.api.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenUserNotFound_thenReturns401" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenValidInput_thenReturns200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nkey-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.nkey.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.nkey.api" />
+      <option name="MAIN_CLASS_NAME" value="br.com.nkey.api.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenValidInput_thenReturns200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenValidInput_thenReturns400" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nkey-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.nkey.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.nkey.api" />
+      <option name="MAIN_CLASS_NAME" value="br.com.nkey.api.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenValidInput_thenReturns400" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.UserControllerTest.whenLoginSuccess_thenReturns200" />
+        <item itemvalue="JUnit.UserControllerTest.whenUserNotFound_thenReturns401" />
+        <item itemvalue="JUnit.UserControllerTest.whenLoginFailed_thenReturns400" />
+        <item itemvalue="JUnit.UserControllerTest.whenValidInput_thenReturns400" />
+        <item itemvalue="JUnit.UserControllerTest.whenValidInput_thenReturns200" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +200,7 @@
       <updated>1599240851541</updated>
       <workItem from="1599240856569" duration="2947000" />
       <workItem from="1599346058423" duration="17467000" />
-      <workItem from="1599657996137" duration="3775000" />
+      <workItem from="1599657996137" duration="7963000" />
     </task>
     <servers />
   </component>
@@ -137,55 +221,55 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="785" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1599355486077">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="837" y="278" key="#com.intellij.ide.util.MemberChooser" timestamp="1599678164982">
+      <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state x="785" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599355486077" />
-    <state x="837" y="278" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1065@0.23.2048.1065" timestamp="1599241637088" />
+    <state x="837" y="278" key="#com.intellij.ide.util.MemberChooser/0.23.2048.1065@0.23.2048.1065" timestamp="1599678164982" />
     <state x="405" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599351879966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="405" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599351879966" />
-    <state width="2006" height="292" key="GridCell.Tab.0.bottom" timestamp="1599606105928">
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom" timestamp="1599680990566">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105928" />
-    <state width="2006" height="292" key="GridCell.Tab.0.center" timestamp="1599606105927">
+    <state width="2006" height="292" key="GridCell.Tab.0.bottom/0.23.2048.1065@0.23.2048.1065" timestamp="1599680990566" />
+    <state width="2006" height="292" key="GridCell.Tab.0.center" timestamp="1599680990566">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105927" />
-    <state width="2006" height="292" key="GridCell.Tab.0.left" timestamp="1599606105926">
+    <state width="2006" height="292" key="GridCell.Tab.0.center/0.23.2048.1065@0.23.2048.1065" timestamp="1599680990566" />
+    <state width="2006" height="292" key="GridCell.Tab.0.left" timestamp="1599680990565">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105926" />
-    <state width="2006" height="292" key="GridCell.Tab.0.right" timestamp="1599606105927">
+    <state width="2006" height="292" key="GridCell.Tab.0.left/0.23.2048.1065@0.23.2048.1065" timestamp="1599680990565" />
+    <state width="2006" height="292" key="GridCell.Tab.0.right" timestamp="1599680990566">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105927" />
-    <state width="2006" height="292" key="GridCell.Tab.1.bottom" timestamp="1599606105929">
+    <state width="2006" height="292" key="GridCell.Tab.0.right/0.23.2048.1065@0.23.2048.1065" timestamp="1599680990566" />
+    <state width="2006" height="292" key="GridCell.Tab.1.bottom" timestamp="1599678356175">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.1.bottom/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105929" />
-    <state width="2006" height="292" key="GridCell.Tab.1.center" timestamp="1599606105928">
+    <state width="2006" height="292" key="GridCell.Tab.1.bottom/0.23.2048.1065@0.23.2048.1065" timestamp="1599678356175" />
+    <state width="2006" height="292" key="GridCell.Tab.1.center" timestamp="1599678356173">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.1.center/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105928" />
-    <state width="2006" height="292" key="GridCell.Tab.1.left" timestamp="1599606105928">
+    <state width="2006" height="292" key="GridCell.Tab.1.center/0.23.2048.1065@0.23.2048.1065" timestamp="1599678356173" />
+    <state width="2006" height="292" key="GridCell.Tab.1.left" timestamp="1599678356173">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.1.left/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105928" />
-    <state width="2006" height="292" key="GridCell.Tab.1.right" timestamp="1599606105929">
+    <state width="2006" height="292" key="GridCell.Tab.1.left/0.23.2048.1065@0.23.2048.1065" timestamp="1599678356173" />
+    <state width="2006" height="292" key="GridCell.Tab.1.right" timestamp="1599678356174">
       <screen x="0" y="23" width="2048" height="1065" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599495050146" />
-    <state width="2006" height="292" key="GridCell.Tab.1.right/0.23.2048.1065@0.23.2048.1065" timestamp="1599606105929" />
+    <state width="2006" height="292" key="GridCell.Tab.1.right/0.23.2048.1065@0.23.2048.1065" timestamp="1599678356174" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599494769999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
